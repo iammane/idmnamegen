@@ -1,3 +1,13 @@
+'''
+IDM name generator v0.0001 - Matt Nemeth
+Conceived from review of https://github.com/wjt/flitwemmmmm - was trying to see
+how this worked and then said 'Welp, I can just do wacky string exercises in
+Python.'
+
+At some point would like to maybe jam this into a web front end. Should
+also probably make this a function proper :)
+'''
+
 import random
 t = ''
 fh = open('data').readlines()
@@ -10,7 +20,7 @@ while t != 'q':
     t = input('Please enter a word - q to quit: ')
 
     if t !='q':
-        counter = int(input('Please enter iteration int: '))
+        counter = int(input('Please enter iteration int: ') or 5)
     
     newarr, titlearr = [], []
     titlearr.append(t) # Add the entered word to start of list
