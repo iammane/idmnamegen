@@ -1,5 +1,5 @@
 '''
-IDM name generator v0.0001 - Matt Nemeth
+IDM name generator v0.0001
 Conceived from review of https://github.com/wjt/flitwemmmmm - was trying to see
 how this worked and then said 'Welp, I can just do wacky string exercises in
 Python.'
