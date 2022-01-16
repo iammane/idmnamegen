@@ -1,8 +1,8 @@
 # IDM name generator v1 - 1/16/2022
-# Conceived from review of https://github.com/wjt/flitwemmmmm - was trying to see
-# how this worked and then said 'Welp, I can just do wacky string exercises in
-# Python.'
-
+# Conceived from review of https://github.com/wjt/flitwemmmmm - was trying to
+# see how this worked and then said 'Welp, I can just do wacky string
+# exercises in Python.
+#
 # At some point would like to maybe jam this into a web front end.
 # Changelog:
 # 1/16/2022 - Refactored into a function rather than a straight through
@@ -10,6 +10,7 @@
 
 
 import random
+
 
 def runTheIDM(t, newarr, counter):
     c = 0
@@ -29,6 +30,7 @@ def runTheIDM(t, newarr, counter):
         titlearr = [t]  # Reset to originally entered word
         titlefin = ''  # Clear the title
         c += 1  # Increase the counter
+
 
 if __name__ == '__main__':
     t = ''
